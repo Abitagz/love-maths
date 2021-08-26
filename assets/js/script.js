@@ -13,13 +13,11 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 })
 
-
-
-
-
-
-
 function runGame() {
+   // creates two random numbers between 1 and 24
+
+    let num1 = Math.floor(Math.random() * 24) + 1;
+    let num2 = Math.floor(Math.random() * 24) + 1;
 
 }
 
